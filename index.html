@@ -13,38 +13,27 @@
   <div class="todo">
     <div class="priority">
       <h2 class="priority-name">HIGH</h2>
-      <form class="todo-form">
+      <form class="todo-form" id="form-priority-high">
         <input type="text" class="todo-input" placeholder="Добавить важных дел">
         <input type="submit" class="todo-btn-add" value="">
       </form>
-      <div class="todo-list"></div>
+      <div class="todo-list high"></div>
     </div>
     <div class="priority">
       <h2 class="priority-name">LOW</h2>
-      <form class="todo-form">
+      <form class="todo-form" id="form-priority-low">
         <input type="text" class="todo-input" placeholder="Добавить дел попроще">
         <input type="submit" class="todo-btn-add" value="">
       </form>
-      <div class="todo-list">
-        <label>
-          <input type="checkbox">
-        </label>
-        <div class="task-content">
-
-        </div>
-        <button class="btn-delete-task">
-          <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="-0.5" x2="20.7803" y2="-0.5" transform="matrix(0.710506 0.703691 -0.65218 0.758064 1 1)"
-              stroke="#998899" />
-            <line y1="-0.5" x2="20.8155" y2="-0.5" transform="matrix(0.693335 -0.720616 0.670126 0.742247 1.56787 16)"
-              stroke="#998899" />
-          </svg>
-        </button>
-      </div>
+      <div class="todo-list low"></div>
     </div>
   </div>
 
+  <!-- <script type="module" src="script/todo-parameters.js"></script>
+  <script type="module" src="script/initTodo.js"></script>
+  <script type="module" src="script/todo.js"></script> -->
   <script type="module" src="script/main.js"></script>
+
 </body>
 
 </html>
